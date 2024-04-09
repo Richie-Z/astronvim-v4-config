@@ -10,19 +10,17 @@ return {
     config = function()
       require("monokai-pro").setup {
         transparent_background = true,
-        filter = "machine", -- classic | octagon | pro | machine | ristretto | spectrum
+        filter = "classic", -- classic | octagon | pro | machine | ristretto | spectrum
       }
     end,
   },
 
   { import = "astrocommunity.completion.codeium-vim" },
 
-  { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
 
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.java" },
-  { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.typescript" },
