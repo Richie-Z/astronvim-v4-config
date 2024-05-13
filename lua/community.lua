@@ -3,7 +3,6 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   {
     "loctvl842/monokai-pro.nvim",
@@ -23,6 +22,7 @@ return {
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.tailwindcss" },
 
@@ -32,5 +32,4 @@ return {
   { import = "astrocommunity.motion.leap-nvim" },
 
   { import = "astrocommunity.color.tint-nvim" },
-  { import = "astrocommunity.color.twilight-nvim" },
 }
