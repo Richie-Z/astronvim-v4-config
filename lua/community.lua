@@ -19,7 +19,6 @@ return {
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
 
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.go" },
