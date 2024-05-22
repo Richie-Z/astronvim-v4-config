@@ -37,4 +37,5 @@ return {
       background_colour = "#000000",
     },
   },
+  { "nvim-telescope/telescope.nvim", version = false },
 }
