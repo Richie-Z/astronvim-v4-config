@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.indent.mini-indentscope" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
 
   -- Motions
   { import = "astrocommunity.motion.flit-nvim" },
