@@ -9,7 +9,11 @@ return {
 
   -- Plugins
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
-  { import = "astrocommunity.completion.codeium-vim" },
+  { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.indent.mini-indentscope" },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 
   -- Motions
   { import = "astrocommunity.motion.flit-nvim" },
