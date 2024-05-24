@@ -6,9 +6,13 @@ return {
   -- UI
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.color.tint-nvim" },
+  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+
+  -- LSP
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.lsp.actions-preview-nvim" },
 
   -- Plugins
-  { import = "astrocommunity.lsp.lsp-signature-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.indent.mini-indentscope" },
