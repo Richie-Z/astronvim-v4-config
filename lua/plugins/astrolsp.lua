@@ -21,16 +21,6 @@ return {
     formatting = {
       async = false,
       timeout_ms = 1000,
-
-      filter = function(client)
-        local ignored_clients = { "jsonls", "tsserver", "typescript-tools", "volar" }
-
-        for _, client_name in ipairs(ignored_clients) do
-          if client_name == client.name then return false end
-        end
-
-        return true
-      end,
     },
   },
 }
