@@ -14,7 +14,6 @@ return {
 
   -- Plugins
   { import = "astrocommunity.utility.noice-nvim" },
-  { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.indent.mini-indentscope" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
@@ -27,6 +26,7 @@ return {
   { import = "astrocommunity.motion.leap-nvim" },
 
   -- Packs
+  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.typescript" },
