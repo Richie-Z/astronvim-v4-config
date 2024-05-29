@@ -7,6 +7,7 @@ return {
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
 
   -- LSP
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
