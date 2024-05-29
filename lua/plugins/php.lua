@@ -5,8 +5,7 @@ return {
     optional = true,
     opts = function(_, opts)
       if opts.ensure_installed ~= "all" then
-        opts.ensure_installed =
-          require("astrocore").list_insert_unique(opts.ensure_installed, { "php", "blade", "phpdoc" })
+        opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, { "php", "phpdoc" })
       end
     end,
   },
@@ -26,19 +25,12 @@ return {
     end,
   },
   {
-    "jay-babu/mason-null-ls.nvim",
-    optional = true,
-    opts = function(_, opts)
-      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, { "blade-formatter" })
-    end,
-  },
-  {
     "WhoIsSethDaniel/mason-tool-installer.nvim",
     optional = true,
     opts = function(_, opts)
       opts.ensure_installed = require("astrocore").list_insert_unique(
         opts.ensure_installed,
-        { "intelephense", "php-debug-adapter", "blade-formatter" }
+        { "phpactor", "intelephense", "php-debug-adapter" }
       )
     end,
   },
@@ -48,7 +40,6 @@ return {
     opts = {
       formatters_by_ft = {
         php = { "intelephense" },
-        blade = { "blade-formatter" },
       },
     },
   },
