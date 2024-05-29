@@ -1,7 +1,7 @@
 ---@type LazySpec
 return {
   "nvim-telescope/telescope.nvim",
-  version = false,
+  -- version = false,
   opts = {
     defaults = {
       file_ignore_patterns = {
