@@ -6,7 +6,6 @@ return {
   -- UI
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.color.tint-nvim" },
-  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
 
   -- LSP
@@ -16,9 +15,9 @@ return {
   -- Plugins
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.indent.mini-indentscope" },
-  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
+  { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
 
   -- Motions
   { import = "astrocommunity.motion.flit-nvim" },
