@@ -11,5 +11,15 @@ return {
       "gitcommit",
       "gitignore",
     })
+    opts.indent = {
+      enable = true,
+      disable = { "dart" },
+    }
+    opts.textobjects = {
+      select = {
+        enable = true,
+        disable = { "dart" },
+      },
+    }
   end,
 }
