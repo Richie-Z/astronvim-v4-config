@@ -91,9 +91,20 @@ return {
             function() require("laravel-ide-helper").generate_models() end,
             desc = "Generate Model Info for all models",
           }
+
+          maps.n[prefix .. "w"] = {
+            function()
+              local cmd = "php artisan ide-helper:models -W "
+              vim.cmd("!" .. cmd) -- Execute the command in a shell
+            end,
+            desc = "Run php artisan ide-helper:models -W for current model",
+          }
         end,
       },
       { "AstroNvim/astroui", opts = { icons = { IdeHelper = "󱚌" } } },
+    },
+    opts = {
+      save_before_write = true,
     },
   },
   {
