@@ -95,9 +95,25 @@ return {
           maps.n[prefix .. "w"] = {
             function()
               local cmd = "php artisan ide-helper:models -W "
-              vim.cmd("!" .. cmd) -- Execute the command in a shell
+              vim.cmd("!" .. cmd)
             end,
             desc = "Run php artisan ide-helper:models -W for current model",
+          }
+
+          maps.n[prefix .. "g"] = {
+            function()
+              local cmd = "php artisan ide-helper:generate"
+              vim.cmd("!" .. cmd)
+            end,
+            desc = "Run php artisan ide-helper:generate",
+          }
+
+          maps.n[prefix .. "i"] = {
+            function()
+              local cmd = "~/.config/nvim/scripts/php-laravel-ide.sh"
+              vim.cmd("!" .. cmd)
+            end,
+            desc = "Init phpactor + laravel-ide-helper",
           }
         end,
       },
