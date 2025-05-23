@@ -17,6 +17,9 @@ return {
   -- Git
   { import = "astrocommunity.git.blame-nvim" },
 
+  -- Completion
+  { import = "astrocommunity.completion.codeium-nvim" },
+
   -- Plugins
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.indent.mini-indentscope" },
@@ -42,4 +45,7 @@ return {
   { import = "astrocommunity.pack.blade" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.kotlin" },
+  { import = "astrocommunity.pack.cs-omnisharp" },
 }
